@@ -28,3 +28,9 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.container {                                                                                                                      
+  max-width: 1000px;                                                                                                              
+  margin: 0 auto;                                                                                                                 
+  padding: 0 20px; /* Optional: Add some padding for better appearance */                                                         
+}     
