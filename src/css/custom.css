@@ -16,6 +16,12 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
+.navbar__inner {
+  max-width: 992px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
@@ -33,4 +39,16 @@
   max-width: 1000px;                                                                                                              
   margin: 0 auto;                                                                                                                 
   padding: 0 20px; /* Optional: Add some padding for better appearance */                                                         
-}     
+}
+
+.hero__title {
+  font-family: 'monospace';
+  white-space: 'pre-wrap';
+  font-size: 20px;
+  background-color: none;
+  text-shadow: 
+    -0.5px -0.5px 0 #000,  
+     0.5px -0.5px 0 #000,
+    -0.5px  0.5px 0 #000,
+     0.5px  0.5px 0 #000;
+}

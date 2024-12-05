@@ -12,9 +12,16 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
+      <pre className="hero__title" style={{ fontFamily: 'monospace', whiteSpace: 'pre-wrap' }}>
+          {`
+     ______ _     _____        _ 
+     |  _  \\ |   /  __ \\      (_)
+__  _| | | | |   | /  \\/  __ _ _ 
+\\ \\/ / | | | |   | |     / _\` | |
+ >  <| |/ /| |___| \\__/\\| (_| | |
+/_/\\_\\___/ \\_____/\\____(_)__,_|_|
+          `}
+        </pre>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
         </div>

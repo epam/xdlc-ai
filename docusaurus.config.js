@@ -70,12 +70,14 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'xDLC.ai',
-        logo: {
-          alt: 'xDLC.ai',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'xDLC.ai',
+        //   src: 'img/logo.svg',
+        // },
         items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Articles', position: 'left'},
+          {to: '/llms', label: 'LLMs', position: 'left'},
+          {to: '/coding-assistants', label: 'Coding Assistants', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
