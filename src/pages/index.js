@@ -11,7 +11,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary')}>
       <div className="container">
-        <Heading as="h1" style={{fontSize: '820%'}}>
+        <Heading as="h1">
           <span style={{opacity: '0.25'}}>&lt;&nbsp;</span>
           x
           <strong>dlc</strong>
