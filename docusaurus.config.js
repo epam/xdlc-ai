@@ -22,11 +22,36 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'EPAM', // Usually your GitHub org/user name.
-  projectName: 'xdlc.ai', // Usually your repo name.
+  organizationName: 'epam', // Usually your GitHub org/user name.
+  projectName: 'xdlc-ai', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossorigin: "anonymous",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        href: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap",
+        rel: "stylesheet",
+      },
+    },
+  ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -69,7 +94,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'xDLC.ai',
+        title: '< xdlc.ai />',
         // logo: {
         //   alt: 'xDLC.ai',
         //   src: 'img/logo.svg',
@@ -86,7 +111,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        // style: 'dark',
         // links: [
         //   {
         //     title: 'Community',
@@ -126,8 +151,8 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       colorMode : {
-        defaultMode: 'light',
-        disableSwitch: true,
+        // defaultMode: 'light',
+        // disableSwitch: true,
       }
     }),
 };
