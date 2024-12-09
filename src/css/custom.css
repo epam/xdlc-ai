@@ -41,13 +41,17 @@ html {
   justify-content: center;
 }
 
+main {
+  max-width: 996px;
+}
+
 .navbar__items{
   justify-content: center;
 }
 
 .hero {
   text-align: center;
-  background-color: var(--ifm-background-surface-color);
+  background-color: var(--ifm-background-colo);
   color: var(--ifm-color-primary);
 }
 
