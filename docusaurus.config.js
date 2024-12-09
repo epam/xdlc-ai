@@ -66,6 +66,13 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        docs: {
+          sidebarPath: './sidebars.js',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -100,9 +107,15 @@ const config = {
         //   src: 'img/logo.svg',
         // },
         items: [
-          {to: '/blog', label: 'Articles', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Wisdom',
+          },
           {to: '/llms', label: 'LLMs', position: 'left'},
           {to: '/coding-assistants', label: 'Coding Assistants', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
