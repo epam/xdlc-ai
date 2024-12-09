@@ -15,6 +15,7 @@
   --ifm-color-primary-lightest: #9f9f9f;
   --ifm-navbar-height: 100px;
   --ifm-footer-background-color: background-color: var(--ifm-background-surface-color);
+  --ifm-heading-font-family: "Space Mono", monospace;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -39,10 +40,6 @@ html {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-}
-
-main {
-  max-width: 996px;
 }
 
 .navbar__items{
