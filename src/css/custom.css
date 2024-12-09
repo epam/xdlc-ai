@@ -33,6 +33,7 @@
 
 html {
   font-family: "Space Mono", monospace;
+  overflow-y: scroll; /* Ensures vertical scrollbar is always visible */
 }
 
 .navbar__inner {
