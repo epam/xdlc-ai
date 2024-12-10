@@ -33,6 +33,7 @@
 
 html {
   font-family: "Space Mono", monospace;
+  font-variant-ligatures: none;
   overflow-y: scroll; /* Ensures vertical scrollbar is always visible */
 }
 
@@ -54,7 +55,7 @@ html {
 }
 
 .hero h1 {
-  font-size: 820%;
+  font-size: 800%;
 }
 
 @media (max-width: 1100px) {
@@ -65,14 +66,14 @@ html {
 
 @media (max-width: 870px) {
   .hero h1 {
-    font-size: 500%; /* Adjust this value as needed for mobile */
+    font-size: 450%; /* Adjust this value as needed for mobile */
   }
 }
 
 @media (max-width: 870px) {
   .hero h1 {
-    font-size: 350%; /* Adjust this value as needed for mobile */
-    overflow-x: hidden;
+    font-size: 320%; /* Adjust this value as needed for mobile */
+    overflow: hidden;
   }
 }
 
