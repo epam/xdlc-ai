@@ -55,6 +55,11 @@ table th {
   text-align: left;
 }
 
+/* Hide the admonition icons */
+.theme-admonition>div>span {
+  display: none;
+}
+
 /* Workaround, render MD to full width */
 .col.col--8 {
   --ifm-col-width: 100%;
