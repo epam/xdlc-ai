@@ -1,0 +1,36 @@
+---
+title: LLMs
+---
+
+import MarkdownSortableTable from '../components/MarkdownSortableTable';
+
+Large Language Models are the key ingedient of AI coding assistants, such as Github Copilot or Cursor. Many of coding assistants (e.g. Continue or Aider) allow you pick the model you want to use. However, it is not always easy to choose the right model. This page offers a ranking of the chat LLMs (those ones you instruct to complete a task, not to be confused with auto-completion/TAB models). Our evaluations include hundreds of taks in various categories, such as code tranlsation, generation,documentations and Large Context Instruction Following. The total score in the leaderboard can generalized to the performance of the model when used for software development taks, either used through a chat bot UI or when powering AI-cording assistant.
+
+The leaderboard is regularly updated, we run our test harness as soon as there're major LLM releases. To learn more about the eval, please check [AI/RUN<sup>TM</sup> Engineering Benchmark](https://github.com/epam/AIRUN-Engineering-Benchmark/tree/main) repo.
+
+# LLM-as-a-Developer Leaderboard
+
+   <MarkdownSortableTable markdown={`
+   | Model                                 | Cost ($) | % per $     | Total Score |
+   | ------------------------------------- | -------- | ----------- | ----------- |
+   | OpenAI o1-mini (2024-09-12)           | 1.46     | 62.88       | 91.7%       |
+   | Claude 3.5 Sonnet v2                  | 0.88     | 102.27      | 89.6%       |
+   | ChatGPT-4o                            | 0.94     | 95.11       | 89.4%       |
+   | GPT-4o (2024-11-20)                   | 0.55     | 161.27      | 88.7%       |
+   | Claude 3.5 Haiku                      | 0.27     | 322.22      | 86.5%       |
+   | OpenAI o1-preview (2024-09-12)        | 10.18    | 8.38        | 85.2%       |
+   | Qwen 2.5 Coder 32B                    | 0.10     | 824.00      | 82.4%       |
+   | GPT-4o (2024-08-06)                   | 0.50     | 164.40      | 82.2%       |
+   | Gemini 1.5 Pro (002)                  | 0.29     | 277.78      | 81.0%       |
+   | Grok Beta                             | 0.86     | 70.09       | 77.8%       |
+   | Llama3.1 405B<sup>1</sup>             | 0.30     | 238.67      | 71.2%       |
+   | GPT-4o-mini (0718)                    | 0.03     | 1770.00     | 70.8%       |
+   | GPT-3.5 Turbo<sup>1</sup>             | 0.06     | 1015.00     | 60.9%       |
+   | Llama3 70B<sup>1</sup>                | 0.05     | 1194.00     | 59.7%       |
+   | Claude 3 Opus<sup>1</sup>             | 4.84     | -           | -           |
+   | GPT-4o (2024-05-13)<sup>1</sup>       | 1.02     | -           | -           |
+   | Gemini 1.5 Pro (0801-exp)<sup>1</sup> | 0.78     | -           | -           |
+   | Gemini 1.5 Pro (0409)<sup>1</sup>     | 1.38     | -           | -           |
+   `} />
+
+> <sup>1</sup> - Evaluation was done more than 3 month ago, results are outdated

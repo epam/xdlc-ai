@@ -16,6 +16,8 @@
   --ifm-navbar-height: 100px;
   --ifm-footer-background-color: background-color: var(--ifm-background-surface-color);
   --ifm-heading-font-family: "Space Mono", monospace;
+  --ifm-container-width-xl: 900px;
+  --ifm-container-width: 900px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -37,8 +39,17 @@ html {
   overflow-y: scroll; /* Ensures vertical scrollbar is always visible */
 }
 
+table {
+  display: table;
+}
+
+/* Workaround, render MD to full width */
+.col.col--8 {
+  --ifm-col-width: 100%;
+}
+
 .navbar__inner {
-  max-width: 996px;
+  max-width: var(--ifm-container-width);
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -55,7 +66,7 @@ html {
 }
 
 .hero h1 {
-  font-size: 800%;
+  font-size: 720%;
 }
 
 @media (max-width: 1100px) {
@@ -78,7 +89,7 @@ html {
 }
 
 .container {                                                                                                                      
-  max-width: 996px;                                                                                                              
+  max-width: var(--ifm-container-width);                                                                                                             
   margin: 0 auto;                                                                                                                 
-  padding: 0 20px; /* Optional: Add some padding for better appearance */                                                         
+  padding: 0 20px;                                                    
 }
