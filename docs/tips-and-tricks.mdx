@@ -2,13 +2,30 @@
 title: Tips & Tricks
 ---
 
+import ChatDialog from '@site/src/components/ChatDialog';
+
 ## 1. Use chat to learn more about tools new to you
-
-With Docasaurus and Infima, how do I control style for mobile and desktop? E.g. what if I want to set different font size when viewed in mobile?
-
+<ChatDialog markdown={`
+::User
+With Docusaurus and Infima, how do I control style for mobile and desktop? E.g. what if I want to set different font size when viewed in mobile?
+::Assistant
 To control styles for different screen sizes in Docusaurus with Infima, you can use CSS media queries. Media queries allow you to apply different styles based on the viewport size. Here's how you can modify your CSS to set different font sizes for mobile and desktop:
+
+\`\`\`css
+.hero h1 {
+  font-size: 820%;
 }
-Explanation:
-Default Style: The .hero h1 selector sets the default font size for all devices.
-Media Query: The @media (max-width: 768px) block targets devices with a screen width of 768 pixels or less, which typically includes tablets and mobile phones. Inside this block, you can specify styles that should apply only to these smaller screens.
-You can adjust the max-width value and the font-size inside the media query to suit your design needs for different devices.
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 400%; /* Adjust this value as needed for mobile */
+  }
+}
+\`\`\`
+
+### Explanation:
+- Default Style: The .hero h1 selector sets the default font size for all devices.
+- Media Query: The \`@media (max-width: 768px)\` block targets devices with a screen width of 768 pixels or less, which typically includes tablets and mobile phones. Inside this block, you can specify styles that should apply only to these smaller screens.
+- You can adjust the max-width value and the font-size inside the media query to suit your design needs for different devices.
+`} />
