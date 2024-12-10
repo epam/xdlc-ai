@@ -43,6 +43,10 @@ table {
   display: table;
 }
 
+table th {
+  text-align: left;
+}
+
 /* Workaround, render MD to full width */
 .col.col--8 {
   --ifm-col-width: 100%;
