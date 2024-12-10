@@ -40,7 +40,7 @@ const MarkdownSortableTable = ({ markdown }) => {
   );
 
   return (
-    <table {...getTableProps()} style={{ width: '100%', borderCollapse: 'collapse' }}>
+    <table {...getTableProps()}>
       <thead>
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>

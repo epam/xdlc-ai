@@ -13,8 +13,10 @@
   --ifm-color-primary-light: #868686;
   --ifm-color-primary-lighter: #8c8c8c;
   --ifm-color-primary-lightest: #9f9f9f;
+  --ifm-table-border-color: black;
   --ifm-navbar-height: 100px;
   --ifm-footer-background-color: background-color: var(--ifm-background-surface-color);
+  --ifm-table-cell-padding: 5px;
   --ifm-heading-font-family: "Space Mono", monospace;
   --ifm-container-width-xl: 900px;
   --ifm-container-width: 900px;
@@ -29,6 +31,7 @@
   --ifm-color-primary-light: #a1a1a1;
   --ifm-color-primary-lighter: #a8a8a8;
   --ifm-color-primary-lightest: #bebebe;
+  --ifm-table-border-color: white;
   --ifm-footer-background-color: background-color: var(--ifm-background-surface-color);
 }
 
@@ -36,11 +39,16 @@
 html {
   font-family: "Space Mono", monospace;
   font-variant-ligatures: none;
-  overflow-y: scroll; /* Ensures vertical scrollbar is always visible */
+  overflow-y: scroll; /* Ensures vertical scrollbar is always visible to avoid page jumping */
 }
 
+/* Center tables */
 table {
   display: table;
+  width: initial;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 table th {
