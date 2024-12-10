@@ -4,47 +4,41 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Cookbook',
+    url: '/docs/Lessons-learned',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We have collected evidense based insights on AI adoption in SDLC, collected a bunch of concrete recipies and common pitfals. We hope that you will find them useful.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'LLM Leaderboard',
+    url: '/llms',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Our LLM evaluation harness focuses on real world relevant tasks, not solving code competition tasks or creating single file applications.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Coding Assistants',
+    url: '/coding-assistants',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We attempted (and it seems we mamanged) to create systematically evaluate various coding assistants. It's apples-to-apples now when we compare GitHub Copilot and the rest
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ title, description, url }) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
+      <a href={url} className="text--center padding-horiz--md" style={{ textDecoration: 'none', color: 'inherit' }}>
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
-      </div>
+      </a>
     </div>
   );
 }

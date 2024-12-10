@@ -111,7 +111,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Wisdom',
+            label: 'Cookbook',
           },
           {to: '/llms', label: 'LLMs', position: 'left'},
           {to: '/coding-assistants', label: 'Coding Assistants', position: 'left'},

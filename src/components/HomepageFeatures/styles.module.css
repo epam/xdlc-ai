@@ -1,8 +1,13 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding-top: 15px;
+  padding-bottom: 20px;
   width: 100%;
+}
+
+.features a:hover {
+  text-shadow: 1px 1px 0px var(--ifm-color-primary-lightest);
 }
 
 .featureSvg {
