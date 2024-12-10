@@ -7,7 +7,7 @@
 }
 
 .features a:hover {
-  text-shadow: 1px 1px 0px var(--ifm-color-primary-lightest);
+  text-shadow: 0.5px 0.5px 0px var(--ifm-color-primary-lightest);
 }
 
 .featureSvg {

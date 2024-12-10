@@ -35,7 +35,7 @@ const FeatureList = [
 function Feature({ title, description, url }) {
   return (
     <div className={clsx('col col--4')}>
-      <a href={url} className="text--center padding-horiz--md" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <a href={url} className="padding-horiz--md" style={{ textDecoration: 'none', color: 'inherit' }}>
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </a>

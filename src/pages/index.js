@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import HomepageIntro from './homepage-intro.mdx';
 import HomepageText from './homepage-text.mdx';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
@@ -36,7 +37,7 @@ export default function Home() {
       description={siteConfig.tagline}>
       <HomepageHeader />
       <main className="container">
-        <p>How do you navigate the landscape of AI tools and products? How do you make informed decisions about which tools to use and when? How do you use them effectively? How do you integrate them into your SDLC? What are the best practices and recommendations for using AI in software development?</p>
+        <HomepageIntro />
         <HomepageFeatures />
         <HomepageText />
       </main>
