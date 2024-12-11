@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkxdlc_ai=self.webpackChunkxdlc_ai||[]).push([[903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/xdlc-ai/blog","blogTitle":"Blog","authorsListPath":"/xdlc-ai/blog/authors"}')}}]);
