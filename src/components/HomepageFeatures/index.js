@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Cookbook',
-    url: '/docs/Lessons-learned',
+    url: './docs/Lessons-learned',
     description: (
       <>
         A collection of evidense-based insights and recipies, common pitfals, role-based (Dev, BA, QA, etc.) manuals. We hope that you will find them useful.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'LLM Leaderboard',
-    url: '/llms',
+    url: './llms',
     description: (
       <>
         Our LLM evaluation harness focuses on real world tasks. Not solving code competition tasks or creating single file applications (like HumanEval does).
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Coding Assistants',
-    url: '/coding-assistants',
+    url: './coding-assistants',
     description: (
       <>
         We attempted (and mamanged) to consistently and systematically evaluate AI coding assistants, it's apples-to-apples now.

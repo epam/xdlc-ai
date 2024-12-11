@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '< xdlc.ai />',
+  title: 'xdlc.ai',
   tagline: 'Excelence in SDLC... With Generative AI',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://epam.github.io',
