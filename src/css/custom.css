@@ -79,7 +79,8 @@ table th {
 .hero {
   text-align: center;
   background-color: var(--ifm-background-colo);
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-content);
+  opacity: 0.9;
 }
 
 .hero h1 {
