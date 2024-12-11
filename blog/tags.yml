@@ -7,3 +7,8 @@ xdlc-ai:
   label: xdlc.ai
   permalink: /xdlc-ai
   description: Excelence in SDLC with Generative AI
+
+devs:
+  label: Developers
+  permalink: /developers
+  description: Insights and resources for developers leveraging Generative AI

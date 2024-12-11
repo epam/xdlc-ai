@@ -81,6 +81,10 @@ table th {
   text-decoration: none;
 }
 
+header a{
+  text-decoration: none;
+}
+
 .hero {
   text-align: center;
   background-color: var(--ifm-background-colo);
