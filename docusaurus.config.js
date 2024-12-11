@@ -91,6 +91,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: 'G-D1CPVQLTWE',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -102,10 +106,6 @@ const config = {
       // image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: '< xdlc.ai \/\>',
-        // logo: {
-        //   alt: 'xDLC.ai',
-        //   src: 'img/logo.svg',
-        // },
         items: [
           {
             type: 'docSidebar',
@@ -124,39 +124,6 @@ const config = {
         ],
       },
       footer: {
-        // style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'X',
-        //         href: 'https://x.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
         copyright: `Copyright © ${new Date().getFullYear()} xDLC.ai`,
       },
       prism: {
