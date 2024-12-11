@@ -77,11 +77,7 @@ table th {
   justify-content: center;
 }
 
-.navbar__items a {
-  text-decoration: none;
-}
-
-header a{
+.navbar__items a, header a, nav a, .table-of-contents a {
   text-decoration: none;
 }
 
