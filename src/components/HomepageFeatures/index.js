@@ -8,7 +8,7 @@ const FeatureList = [
     url: '/docs/Lessons-learned',
     description: (
       <>
-        We have collected evidense based insights on AI adoption in SDLC, collected a bunch of concrete recipies and common pitfals. We hope that you will find them useful.
+        A collection of evidense-based insights and recipies, common pitfals, role-based (Dev, BA, QA, etc.) manuals. We hope that you will find them useful.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     url: '/llms',
     description: (
       <>
-        Our LLM evaluation harness focuses on real world relevant tasks, not solving code competition tasks or creating single file applications.
+        Our LLM evaluation harness focuses on real world tasks. Not solving code competition tasks or creating single file applications (like HumanEval does).
       </>
     ),
   },
@@ -26,7 +26,9 @@ const FeatureList = [
     url: '/coding-assistants',
     description: (
       <>
-        We attempted (and it seems we mamanged) to create systematically evaluate various coding assistants. It's apples-to-apples now when we compare GitHub Copilot and the rest
+        We attempted (and mamanged) to consistently and systematically evaluate AI coding assistants, it's apples-to-apples now.
+        <br />
+        🍎 🍏
       </>
     ),
   },
@@ -35,7 +37,7 @@ const FeatureList = [
 function Feature({ title, description, url }) {
   return (
     <div className={clsx('col col--4')}>
-      <a href={url} className="padding-horiz--md" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <a href={url} className="text--center padding-horiz--md" style={{ textDecoration: 'none', color: 'inherit' }}>
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </a>

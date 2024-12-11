@@ -9,8 +9,3 @@
 .features a:hover {
   text-shadow: 0.5px 0.5px 0px var(--ifm-color-primary-lightest);
 }
-
-.featureSvg {
-  height: 200px;
-  width: 200px;
-}
