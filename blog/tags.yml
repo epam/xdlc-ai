@@ -1,19 +1,9 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
 hello:
   label: Hello
   permalink: /hello
-  description: Hello tag description
+  description: Welcome to the xdlc.ai!
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+xdlc-ai:
+  label: xdlc.ai
+  permalink: /xdlc-ai
+  description: Excelence in SDLC with Generative AI

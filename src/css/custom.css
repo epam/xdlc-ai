@@ -13,6 +13,7 @@
   --ifm-color-primary-light: #868686;
   --ifm-color-primary-lighter: #8c8c8c;
   --ifm-color-primary-lightest: #9f9f9f;
+  --ifm-link-decoration: underline;
   --ifm-table-border-color: black;
   --ifm-navbar-height: 100px;
   --ifm-footer-background-color: background-color: var(--ifm-background-surface-color);
@@ -74,6 +75,10 @@ table th {
 
 .navbar__items{
   justify-content: center;
+}
+
+.navbar__items a {
+  text-decoration: none;
 }
 
 .hero {
